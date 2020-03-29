@@ -1,0 +1,38 @@
+html {
+    font-size: $font-size;
+}
+    body{
+
+      header{
+        height: 15vh;
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: blueviolet;
+        #menu{
+          padding: 0px;
+          margin: 0px;
+          display: flex;
+          text-align: center;
+          justify-content: center;
+        }
+        button{
+          width:150px;
+          color: blanchedalmond;
+          border: 1.5px solid $border-black;
+        }
+        #menu button a {
+          display: inline;
+          text-align: center;
+          text-decoration: none;
+        }
+      }
+      main{
+        position: relative;
+        height: 70vh;
+      }
+      footer{
+        position: relative;
+        height: 15vh;
+        text-align: center;
+      }
+    }
