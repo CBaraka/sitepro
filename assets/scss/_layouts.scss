@@ -48,13 +48,30 @@ html {
           display: inline-block;
           width: 90px;
           text-align: right;
-          }
+        }
+        .button{
+          text-align:center ;
+        }
       }
       footer{
         height: 15vh;
         padding: $padding-y 0;
-        text-align: center;
         position: relative;
+        display: flex;
         background-color: $background-blue;
+        
+        .contact{
+          flex-direction: row-reverse;
+          text-align: right;
+        }
+        .reseaux img{
+          height:30px;
+          width:30px;
+          
+        }
+        .copy{
+          text-align: center;
+          align-items: center;
+        }
       }
     }
